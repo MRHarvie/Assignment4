@@ -8,7 +8,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-center p-8">
       <div className="max-w-4xl w-full text-center">
         <h1 className="text-5xl font-bold mb-6">
-          Welcome to Rick and Morty Trivia!
+          Welcome to Rick and Morty Trivia! Assignment 4 Complete
         </h1>
         <p className="text-xl mb-8">
           Explore your favorite characters from the Rick and Morty universe
