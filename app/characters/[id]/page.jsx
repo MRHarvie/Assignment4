@@ -1,4 +1,4 @@
-// Step 3: Setup the Character page
+// Step 1: Setup the Character page
 
 import Character from '@/components/Character'
 
@@ -13,7 +13,8 @@ async function getCharacter(id) {
   return res.json()
 }
 
-// Generate static params for all characters (for static export)
+// Step 1: Generate static params for all characters (required for static export)
+// This pre-renders all character pages at build time
 export async function generateStaticParams() {
   const res = await fetch('https://rickandmortyapi.com/api/character')
   const data = await res.json()

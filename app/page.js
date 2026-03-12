@@ -1,5 +1,6 @@
 // Step 1: Setup Home page
 // Display a welcome message and an image
+// Step 3: Test change - verifies Netlify auto-deploy on push
 
 import Image from 'next/image'
 
